@@ -4,7 +4,7 @@ title: Home
 ---
 
 <!-- Link to external CSS -->
-<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="/style.css">
 
 <!-- Hero Section -->
 <div class="hero">
