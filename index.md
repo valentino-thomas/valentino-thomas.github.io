@@ -11,7 +11,7 @@ title: Home
   <h1>Valentino Thomas</h1>
   <h2>Biomedical Engineering MEng Student | UCL</h2>
   <p>
-    Passionate about bridging engineering and medicine, exploring neurotechnology, robotics, and software development. Experienced in analogue electronics, Arduino programming, signal conditioning, machine learning, and CAD-based design.
+    Passionate about bridging engineering and medicine, exploring neurotechnology, robotics, and software development.
   </p>
   <div>
     <a href="https://linkedin.com/in/valentinothomas" target="_blank" class="button-primary">🔗 LinkedIn</a>
@@ -28,46 +28,6 @@ I am a Biomedical Engineering MEng student at UCL with experience in analogue el
 <hr>
 
 ## Projects Preview
-
-<div class="project-cards">
-
-  <!-- Project Card 1 -->
-  <div class="flip-card" style="animation-delay:0.1s;">
-    <div class="flip-card-inner">
-      <div class="flip-card-front">
-        <h4>EMG-Based Cursor Control</h4>
-      </div>
-      <div class="flip-card-back">
-        <p>Built using Arduino and analog signal processing. Real-time EMG signals control computer cursor movement.</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Project Card 2 -->
-  <div class="flip-card" style="animation-delay:0.3s;">
-    <div class="flip-card-inner">
-      <div class="flip-card-front">
-        <h4>Machine Learning Circuit Analysis</h4>
-      </div>
-      <div class="flip-card-back">
-        <p>Applied image recognition to analyze and optimize electronic circuits, automating error detection.</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Project Card 3 -->
-  <div class="flip-card" style="animation-delay:0.5s;">
-    <div class="flip-card-inner">
-      <div class="flip-card-front">
-        <h4>3D-Printed Bionic Prototypes</h4>
-      </div>
-      <div class="flip-card-back">
-        <p>Designed and fabricated robotics and prosthetics prototypes, integrating CAD design and rapid prototyping.</p>
-      </div>
-    </div>
-  </div>
-
-</div>
 
 <hr>
 
