@@ -36,36 +36,47 @@ I am a Biomedical Engineering MEng student at UCL with experience in analogue el
 
 <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:1rem; margin-bottom:3rem;">
 
-<!-- Project Card 1 -->
-<div style="background:#ffffff; padding:1rem; border-radius:8px; width:250px; box-shadow:0 2px 6px rgba(0,0,0,0.1); transition: transform 0.3s; text-align:left;">
-  <h4>EMG-Based Cursor Control</h4>
-  <p style="font-size:0.95rem; color:#333;">
-    Built using Arduino and analog signal processing. Real-time EMG signals control computer cursor movement.
-  </p>
-</div>
+  <!-- Project Card 1 -->
+  <div class="flip-card" style="width:250px; perspective:1000px;">
+    <div class="flip-card-inner" style="position:relative; width:100%; height:150px; text-align:center; transition: transform 0.8s; transform-style: preserve-3d;">
+      <div class="flip-card-front" style="position:absolute; width:100%; height:100%; backface-visibility:hidden; display:flex; justify-content:center; align-items:center; background:#ffffff; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.1);">
+        <h4>EMG-Based Cursor Control</h4>
+      </div>
+      <div class="flip-card-back" style="position:absolute; width:100%; height:100%; backface-visibility:hidden; display:flex; justify-content:center; align-items:center; background:#ffffff; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.1); transform:rotateY(180deg); padding:0.5rem;">
+        <p style="font-size:0.95rem; color:#333;">Built using Arduino and analog signal processing. Real-time EMG signals control computer cursor movement.</p>
+      </div>
+    </div>
+  </div>
 
-<!-- Project Card 2 -->
-<div style="background:#ffffff; padding:1rem; border-radius:8px; width:250px; box-shadow:0 2px 6px rgba(0,0,0,0.1); transition: transform 0.3s; text-align:left;">
-  <h4>Machine Learning Circuit Analysis</h4>
-  <p style="font-size:0.95rem; color:#333;">
-    Applied image recognition to analyze and optimize electronic circuits, automating error detection.
-  </p>
-</div>
+  <!-- Project Card 2 -->
+  <div class="flip-card" style="width:250px; perspective:1000px;">
+    <div class="flip-card-inner" style="position:relative; width:100%; height:150px; text-align:center; transition: transform 0.8s; transform-style: preserve-3d;">
+      <div class="flip-card-front" style="position:absolute; width:100%; height:100%; backface-visibility:hidden; display:flex; justify-content:center; align-items:center; background:#ffffff; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.1);">
+        <h4>Machine Learning Circuit Analysis</h4>
+      </div>
+      <div class="flip-card-back" style="position:absolute; width:100%; height:100%; backface-visibility:hidden; display:flex; justify-content:center; align-items:center; background:#ffffff; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.1); transform:rotateY(180deg); padding:0.5rem;">
+        <p style="font-size:0.95rem; color:#333;">Applied image recognition to analyze and optimize electronic circuits, automating error detection.</p>
+      </div>
+    </div>
+  </div>
 
-<!-- Project Card 3 -->
-<div style="background:#ffffff; padding:1rem; border-radius:8px; width:250px; box-shadow:0 2px 6px rgba(0,0,0,0.1); transition: transform 0.3s; text-align:left;">
-  <h4>3D-Printed Bionic Prototypes</h4>
-  <p style="font-size:0.95rem; color:#333;">
-    Designed and fabricated robotics and prosthetics prototypes, integrating CAD design and rapid prototyping.
-  </p>
-</div>
+  <!-- Project Card 3 -->
+  <div class="flip-card" style="width:250px; perspective:1000px;">
+    <div class="flip-card-inner" style="position:relative; width:100%; height:150px; text-align:center; transition: transform 0.8s; transform-style: preserve-3d;">
+      <div class="flip-card-front" style="position:absolute; width:100%; height:100%; backface-visibility:hidden; display:flex; justify-content:center; align-items:center; background:#ffffff; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.1);">
+        <h4>3D-Printed Bionic Prototypes</h4>
+      </div>
+      <div class="flip-card-back" style="position:absolute; width:100%; height:100%; backface-visibility:hidden; display:flex; justify-content:center; align-items:center; background:#ffffff; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.1); transform:rotateY(180deg); padding:0.5rem;">
+        <p style="font-size:0.95rem; color:#333;">Designed and fabricated robotics and prosthetics prototypes, integrating CAD design and rapid prototyping.</p>
+      </div>
+    </div>
+  </div>
 
 </div>
 
 <style>
-div[style*="box-shadow"]:hover {
-  transform: translateY(-5px);
-  box-shadow:0 4px 12px rgba(0,0,0,0.15);
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
 }
 </style>
 
