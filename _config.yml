@@ -1,6 +1,15 @@
+# Site info
 title: Valentino Thomas
 email: hello@valentinothomas.com
-description: Biomedical Engineering MEng Student | UCL
-baseurl: "" # leave empty for root
-url: "https://valentinothomas.com"
-theme: minima # GitHub Pages built-in theme
+description: Biomedical Engineering MEng Student | UCL | Exploring projects in neurotechnology, robotics, and software development
+url: "https://valentinothomas.com" # your custom domain
+baseurl: "" # leave blank for root
+
+# Theme
+theme: minima
+
+# Social links (can be referenced in layouts)
+linkedin: "https://linkedin.com/in/valentinothomas"
+
+# Optional customization
+markdown: kramdown
