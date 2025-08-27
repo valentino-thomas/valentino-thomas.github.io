@@ -34,19 +34,39 @@ I am a Biomedical Engineering MEng student at UCL with experience in analogue el
 
 ## Projects Preview
 
-Here are a few examples of projects I’m currently working on or have completed. Hover over each for emphasis:
+<div style="display:flex; flex-wrap:wrap; justify-content:center; gap:1rem; margin-bottom:3rem;">
 
-- **EMG-Based Cursor Control** – built using Arduino and analog signal processing.  
-- **Machine Learning Circuit Analysis** – image recognition applied to electronics projects.  
-- **3D-Printed Bionic Prototypes** – exploring robotics and prosthetics design.
+<!-- Project Card 1 -->
+<div style="background:#ffffff; padding:1rem; border-radius:8px; width:250px; box-shadow:0 2px 6px rgba(0,0,0,0.1); transition: transform 0.3s; text-align:left;">
+  <h4>EMG-Based Cursor Control</h4>
+  <p style="font-size:0.95rem; color:#333;">
+    Built using Arduino and analog signal processing. Real-time EMG signals control computer cursor movement.
+  </p>
+</div>
+
+<!-- Project Card 2 -->
+<div style="background:#ffffff; padding:1rem; border-radius:8px; width:250px; box-shadow:0 2px 6px rgba(0,0,0,0.1); transition: transform 0.3s; text-align:left;">
+  <h4>Machine Learning Circuit Analysis</h4>
+  <p style="font-size:0.95rem; color:#333;">
+    Applied image recognition to analyze and optimize electronic circuits, automating error detection.
+  </p>
+</div>
+
+<!-- Project Card 3 -->
+<div style="background:#ffffff; padding:1rem; border-radius:8px; width:250px; box-shadow:0 2px 6px rgba(0,0,0,0.1); transition: transform 0.3s; text-align:left;">
+  <h4>3D-Printed Bionic Prototypes</h4>
+  <p style="font-size:0.95rem; color:#333;">
+    Designed and fabricated robotics and prosthetics prototypes, integrating CAD design and rapid prototyping.
+  </p>
+</div>
+
+</div>
 
 <style>
-  li:hover {
-    background-color: #f1f5f9;
-    transition: background-color 0.3s ease;
-    padding: 0.25rem 0.5rem;
-    border-radius: 4px;
-  }
+div[style*="box-shadow"]:hover {
+  transform: translateY(-5px);
+  box-shadow:0 4px 12px rgba(0,0,0,0.15);
+}
 </style>
 
 ---
@@ -64,6 +84,4 @@ You can reach me via:
 
 - 🔗 [LinkedIn](https://linkedin.com/in/valentinothomas)  
 - 📧 [Email Me](mailto:hello@valentinothomas.com)
-
----
 
