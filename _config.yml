@@ -13,3 +13,6 @@ linkedin: "https://linkedin.com/in/valentinothomas"
 
 # Optional customization
 markdown: kramdown
+
+# Footer info
+footer: "© 2025 Valentino Thomas"
